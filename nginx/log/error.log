@@ -1,0 +1,53 @@
+2022/05/07 23:35:13 [notice] 1#1: using the "epoll" event method
+2022/05/07 23:35:13 [notice] 1#1: nginx/1.21.6
+2022/05/07 23:35:13 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/07 23:35:13 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2022/05/07 23:35:13 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/07 23:35:13 [notice] 1#1: start worker processes
+2022/05/07 23:35:13 [notice] 1#1: start worker process 31
+2022/05/07 23:35:13 [notice] 1#1: start worker process 32
+2022/05/07 23:35:13 [notice] 1#1: start worker process 33
+2022/05/07 23:35:13 [notice] 1#1: start worker process 34
+2022/05/07 23:36:03 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2022/05/07 23:36:03 [notice] 31#31: gracefully shutting down
+2022/05/07 23:36:03 [notice] 31#31: exiting
+2022/05/07 23:36:03 [notice] 32#32: gracefully shutting down
+2022/05/07 23:36:03 [notice] 32#32: exiting
+2022/05/07 23:36:03 [notice] 33#33: gracefully shutting down
+2022/05/07 23:36:03 [notice] 33#33: exiting
+2022/05/07 23:36:03 [notice] 34#34: gracefully shutting down
+2022/05/07 23:36:03 [notice] 34#34: exiting
+2022/05/07 23:36:03 [notice] 31#31: exit
+2022/05/07 23:36:03 [notice] 32#32: exit
+2022/05/07 23:36:03 [notice] 33#33: exit
+2022/05/07 23:36:03 [notice] 34#34: exit
+2022/05/07 23:36:03 [notice] 1#1: signal 17 (SIGCHLD) received from 33
+2022/05/07 23:36:03 [notice] 1#1: worker process 31 exited with code 0
+2022/05/07 23:36:03 [notice] 1#1: worker process 32 exited with code 0
+2022/05/07 23:36:03 [notice] 1#1: worker process 33 exited with code 0
+2022/05/07 23:36:03 [notice] 1#1: signal 29 (SIGIO) received
+2022/05/07 23:36:03 [notice] 1#1: signal 17 (SIGCHLD) received from 34
+2022/05/07 23:36:03 [notice] 1#1: worker process 34 exited with code 0
+2022/05/07 23:36:03 [notice] 1#1: exit
+2022/05/07 23:36:12 [notice] 1#1: using the "epoll" event method
+2022/05/07 23:36:12 [notice] 1#1: nginx/1.21.6
+2022/05/07 23:36:12 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/07 23:36:12 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2022/05/07 23:36:12 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/07 23:36:12 [notice] 1#1: start worker processes
+2022/05/07 23:36:12 [notice] 1#1: start worker process 30
+2022/05/07 23:36:12 [notice] 1#1: start worker process 31
+2022/05/07 23:36:12 [notice] 1#1: start worker process 32
+2022/05/07 23:36:12 [notice] 1#1: start worker process 33
+2022/05/07 23:38:56 [notice] 1#1: using the "epoll" event method
+2022/05/07 23:38:56 [notice] 1#1: nginx/1.21.6
+2022/05/07 23:38:56 [notice] 1#1: built by gcc 10.2.1 20210110 (Debian 10.2.1-6) 
+2022/05/07 23:38:56 [notice] 1#1: OS: Linux 5.10.47-linuxkit
+2022/05/07 23:38:56 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2022/05/07 23:38:56 [notice] 1#1: start worker processes
+2022/05/07 23:38:56 [notice] 1#1: start worker process 30
+2022/05/07 23:38:56 [notice] 1#1: start worker process 31
+2022/05/07 23:38:56 [notice] 1#1: start worker process 32
+2022/05/07 23:38:56 [notice] 1#1: start worker process 33
+2022/05/07 23:39:48 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost:8088/"" at /var/www/html/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135" while reading response header from upstream, client: 192.168.96.1, server: localhost, request: "GET / HTTP/1.1", upstream: "fastcgi://192.168.96.2:9000", host: "localhost:8088"
+2022/05/07 23:39:48 [error] 30#30: *1 FastCGI sent in stderr: "PHP message: [error] Uncaught PHP Exception Symfony\Component\HttpKernel\Exception\NotFoundHttpException: "No route found for "GET http://localhost:8088/favicon.ico" (from "http://localhost:8088/")" at /var/www/html/vendor/symfony/http-kernel/EventListener/RouterListener.php line 135" while reading response header from upstream, client: 192.168.96.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", upstream: "fastcgi://192.168.96.2:9000", host: "localhost:8088", referrer: "http://localhost:8088/"
